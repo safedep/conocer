@@ -38,13 +38,8 @@ In order to assist in crawling GenAI web app features testing, setup playwright
 ```bash
 playwright install
 ```
-**Various browsers should be installed including Chromium. Ignore the error at the end**
 
-
-Install it as a dependency using pip
-```bash
-pip install conocer@git+https://github.com/safedep/conocer detoxio-api-protocolbuffers-python detoxio_api_grpc_python   --upgrade --extra-index-url https://buf.build/gen/python
-```
+Various browsers should be installed including Chromium. Ignore the error at the end
 
 ## Usage
 
